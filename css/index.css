@@ -319,3 +319,37 @@ hr {
 .intro {
     padding: 0 20px;
 }
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 48.5%;
+    padding-top: 40px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.card a {
+    margin-top: 24px;
+    width: 33.33%;
+    padding: 8px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+    align-self: flex-start;
+    border-radius: 8px;
+}
+
+.card hr {
+    margin: 20px auto;
+}
