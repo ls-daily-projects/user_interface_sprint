@@ -353,3 +353,8 @@ hr {
 .card hr {
     margin: 20px auto;
 }
+
+/* Contact */
+.contact {
+    padding: 40px 8px;
+}
